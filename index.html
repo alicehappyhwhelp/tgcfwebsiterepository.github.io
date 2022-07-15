@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>password page</title>
+	<script>
+		function checkpassword() {
+			var password = document.getElementById("passwordbox");
+			var passwordText= password.value;
+			if(passwordText== "it's ur mom") {
+				return true;
+			}
+			else{
+
+				alert("Access Denied Boohoo");
+				return false;
+			}
+			
+		}
+	</script>
+	<style type="text/css">
+		*{background-color: #a30015}
+		section{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<section>
+	<p style="font-size:30px" >Guess my favorite person in the world.</p>
+	<p> hint:it's ur mom</p>
+	<p> Letters:<input id="passwordbox"></p>
+	<button><a href="tgcf2.html"onclick="return checkpassword()">IM HILARIOUS HEHEHEHE</a></button>
+	</section>
+
+
+</body>
+</html>
